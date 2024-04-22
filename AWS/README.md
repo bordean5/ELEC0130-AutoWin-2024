@@ -2,6 +2,8 @@
 
 The backend is an AWS Lambda based cloud web service that concists of 12 Lambda functions, 3 NoSQL Amazon DynamoDB Tables, an EC2 hosted NodeRed Dashboard. It uses AWS IoT rules to enable MQTT communication with the fleet of scanners, and communicates with the OpenFoodFact API to retreive nutritional information about products.
 
+This repository contains the python code for the 12 Lambda functions.
+
 ![backend architecture](./images/NutritionApp_V1-5.jpg)
 
 
